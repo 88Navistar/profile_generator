@@ -12,7 +12,7 @@ rl.question('What\'s your name? Nicknames are also acceptable :)', (name) => {
         rl.question('Which sport is your absolute favourite?) ', (sport) => {
           rl.question('What is your superpower? ', (power) => {
   
-    console.log(`cool ${name}`,`You like to partake in ${activity}`, `My fave meal is: ${meal}.`, `My absolute fave sport is : ${sport}.`, `My superpower is : ${power}.`);
+    console.log(`cool ${name}`,`You like to partake in ${activity}`,`I rock out to ${listen}`, `My fave meal is: ${meal}.`, `I eat lots of ${food}`, `My absolute fave sport iss ${sport}.`, `My superpower is ${power}.`);
 
   rl.close();
        });
@@ -22,8 +22,3 @@ rl.question('What\'s your name? Nicknames are also acceptable :)', (name) => {
   });
  });
 });
-
-// Which meal is your favourite (eg: dinner, brunch, etc.)
-// What's your favourite thing to eat for that meal?
-// Which sport is your absolute favourite?
-// What is your superpower? In a few words, tell us what you are amazing at!
